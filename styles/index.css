@@ -1,0 +1,382 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: #074419;
+    width: 50%; 
+    margin-left: 50px; 
+}
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav {
+    overflow: hidden;
+    width: 50%;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #074419;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #074419;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+.section1{
+    margin-left: 40px;
+}
+section.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #ddd;
+}
+
+section.hero h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section.hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+section.hero a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #074419;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+section.intro {
+    text-align: center;
+    padding: 50px 0;
+}
+
+section.intro h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section.skills {
+    text-align: center;
+    padding: 50px 0;
+     background-color: #ddd; 
+}
+section.skills h2{
+    font-size: 3rem;
+    color: #074419;
+}
+
+section.skills i {
+    font-size: 2em;
+    margin: 0 20px;
+}
+
+section.social {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #074419; 
+}
+
+section.social a {
+     color: white; 
+    font-size: 2em;
+    margin: 0 15px;
+}
+
+.u-center-text {
+    text-align: center !important;
+  }
+  
+  .u-margin-bottom-small {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .u-margin-bottom-medium {
+    margin-bottom: 4rem !important;
+  }
+  
+  .u-margin-top-big {
+    margin-top: 5rem !important;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+   
+  }
+  
+  .heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    margin-bottom: 6rem;
+  }
+  
+  .heading-primary--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    -webkit-animation-name: moveInLeft;
+            animation-name: moveInLeft;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    
+  }
+  
+  .heading-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    -webkit-animation: moveInRight 1s ease-out;
+            animation: moveInRight 1s ease-out;
+  }
+  
+  .heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: transparent;
+    letter-spacing: 0.2rem;
+    line-height: 1;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #eee;
+  }
+  .btn--white {
+    background-color: #fff;
+    color: #777;
+  }
+  
+  .btn--white::after {
+    background-color: #fff;
+  }
+  
+  .btn--green {
+    background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#3f5efb));
+    background: linear-gradient(to right, #fc466b, #3f5efb);
+    color: #fff;
+  }
+  
+  .btn--green::after {
+    background-color: #55c57a;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  .section-plans {
+   
+    padding: 4rem 0 4rem 0;
+  }
+  
+  .card {
+    
+    position: relative;
+    height: 52rem;
+  }
+  
+  .card__side--front-1 {
+    background-color: #074419;
+    color: #fff;
+  }
+  
+  .card__side--front-2 {
+    
+    background-color: #074419;
+    color: #fff;
+  }
+  
+  .card__side--front-3 {
+    background-color: #074419;
+    color: #fff;
+  }
+  
+  
+  
+  .card__title {
+    height: 20rem;
+    padding: 4rem 2rem 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card__title--1 .fas {
+    font-size: 2rem;
+  }
+  
+  .card__title--2 .fas {
+    font-size: 2rem;
+  }
+  
+  .card__title--3 .fas {
+    font-size: 2rem;
+  }
+  
+  .card__heading {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    width: 75%;
+  }
+  
+  .card__details {
+    padding: 0 2rem 2rem;
+  }
+  
+  .card__details ul {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .card__details ul li {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  
+  .card__details ul li:not(:last-child) {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .card__price-box {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 8rem;
+  }
+  
+  .card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+  
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100;
+  }
+  
+  .row {
+    max-width: 114rem;
+    margin: 0 auto;
+  }
+  
+  .row:not(:last-child) {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .row [class^="col-"] {
+    float: left;
+  }
+  
+  .row [class^="col-"]:not(:last-child) {
+    margin-right: 6rem;
+  }
+  
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3);
+  }
+  .card1 {
+    display: flex;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card1 img {
+    width: 40%;
+    object-fit: cover;
+    border-right: 1px solid #ddd;
+}
+
+.card1-content {
+    padding: 20px;
+    width: 60%;
+}
+
+.card1-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card1-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+  
+
+ footer {
+     background-color: #333; 
+     color: white; 
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} 
